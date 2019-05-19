@@ -1,0 +1,22 @@
+PODS:
+  - TesseractOCRiOS (4.0.0)
+
+DEPENDENCIES:
+  - TesseractOCRiOS (from `git://github.com/parallaxe/Tesseract-OCR-iOS.git`, branch `macos-support`)
+
+EXTERNAL SOURCES:
+  TesseractOCRiOS:
+    :branch: macos-support
+    :git: git://github.com/parallaxe/Tesseract-OCR-iOS.git
+
+CHECKOUT OPTIONS:
+  TesseractOCRiOS:
+    :commit: d16bb14e136d875bd5a519febe9e3c103d212647
+    :git: git://github.com/parallaxe/Tesseract-OCR-iOS.git
+
+SPEC CHECKSUMS:
+  TesseractOCRiOS: f51bbcd27d84b9ac59950790413a7e4219e84483
+
+PODFILE CHECKSUM: 329ce3ac2d8b427f9aee0a89c497bb50cce3840a
+
+COCOAPODS: 1.5.3

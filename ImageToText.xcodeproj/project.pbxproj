@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C88A1BF022920FF20094AB45 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = C88A1BEF22920FF20094AB45 /* tessdata */; };
+		C8FA101E2291E54300F262CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FA101D2291E54300F262CA /* AppDelegate.swift */; };
+		C8FA10202291E54300F262CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FA101F2291E54300F262CA /* ViewController.swift */; };
+		C8FA10232291E54300F262CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8FA10212291E54300F262CA /* Main.storyboard */; };
+		C8FA10252291E54500F262CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8FA10242291E54500F262CA /* Assets.xcassets */; };
+		C8FA10282291E54500F262CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8FA10262291E54500F262CA /* LaunchScreen.storyboard */; };
+		DCDA315B79B6CBBE78C54B7A /* Pods_ImageToText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829C3478A1678BFB45BDBF49 /* Pods_ImageToText.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36BCE8362847C2CD673E1A1E /* Pods-ImageToText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageToText.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageToText/Pods-ImageToText.debug.xcconfig"; sourceTree = "<group>"; };
+		829C3478A1678BFB45BDBF49 /* Pods_ImageToText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageToText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88A1BEF22920FF20094AB45 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tessdata; path = ../../../../Downloads/tessdata; sourceTree = "<group>"; };
+		C8FA101A2291E54300F262CA /* ImageToText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageToText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8FA101D2291E54300F262CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8FA101F2291E54300F262CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8FA10222291E54300F262CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8FA10242291E54500F262CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8FA10272291E54500F262CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8FA10292291E54500F262CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D871A0A198CEB32ED0BE96E8 /* Pods-ImageToText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageToText.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageToText/Pods-ImageToText.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8FA10172291E54300F262CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDA315B79B6CBBE78C54B7A /* Pods_ImageToText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		295A5EAC528F22F06EBDE256 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				829C3478A1678BFB45BDBF49 /* Pods_ImageToText.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1FCD674655954AFE4803772 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36BCE8362847C2CD673E1A1E /* Pods-ImageToText.debug.xcconfig */,
+				D871A0A198CEB32ED0BE96E8 /* Pods-ImageToText.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8FA10112291E54300F262CA = {
+			isa = PBXGroup;
+			children = (
+				C8FA101C2291E54300F262CA /* ImageToText */,
+				C8FA101B2291E54300F262CA /* Products */,
+				A1FCD674655954AFE4803772 /* Pods */,
+				295A5EAC528F22F06EBDE256 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8FA101B2291E54300F262CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8FA101A2291E54300F262CA /* ImageToText.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8FA101C2291E54300F262CA /* ImageToText */ = {
+			isa = PBXGroup;
+			children = (
+				C8FA101D2291E54300F262CA /* AppDelegate.swift */,
+				C8FA101F2291E54300F262CA /* ViewController.swift */,
+				C8FA10212291E54300F262CA /* Main.storyboard */,
+				C8FA10242291E54500F262CA /* Assets.xcassets */,
+				C8FA10262291E54500F262CA /* LaunchScreen.storyboard */,
+				C8FA10292291E54500F262CA /* Info.plist */,
+				C88A1BEF22920FF20094AB45 /* tessdata */,
+			);
+			path = ImageToText;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8FA10192291E54300F262CA /* ImageToText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8FA102C2291E54500F262CA /* Build configuration list for PBXNativeTarget "ImageToText" */;
+			buildPhases = (
+				90FF9C55F043963FAC785CD5 /* [CP] Check Pods Manifest.lock */,
+				C8FA10162291E54300F262CA /* Sources */,
+				C8FA10172291E54300F262CA /* Frameworks */,
+				C8FA10182291E54300F262CA /* Resources */,
+				32ADE917EA78D2DA16E9F824 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageToText;
+			productName = ImageToText;
+			productReference = C8FA101A2291E54300F262CA /* ImageToText.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8FA10122291E54300F262CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Md Zahidul islam";
+				TargetAttributes = {
+					C8FA10192291E54300F262CA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C8FA10152291E54300F262CA /* Build configuration list for PBXProject "ImageToText" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8FA10112291E54300F262CA;
+			productRefGroup = C8FA101B2291E54300F262CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8FA10192291E54300F262CA /* ImageToText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8FA10182291E54300F262CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FA10282291E54500F262CA /* LaunchScreen.storyboard in Resources */,
+				C88A1BF022920FF20094AB45 /* tessdata in Resources */,
+				C8FA10252291E54500F262CA /* Assets.xcassets in Resources */,
+				C8FA10232291E54300F262CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32ADE917EA78D2DA16E9F824 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ImageToText/Pods-ImageToText-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageToText/Pods-ImageToText-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90FF9C55F043963FAC785CD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageToText-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8FA10162291E54300F262CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FA10202291E54300F262CA /* ViewController.swift in Sources */,
+				C8FA101E2291E54300F262CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8FA10212291E54300F262CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8FA10222291E54300F262CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8FA10262291E54500F262CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8FA10272291E54500F262CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8FA102A2291E54500F262CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8FA102B2291E54500F262CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8FA102D2291E54500F262CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36BCE8362847C2CD673E1A1E /* Pods-ImageToText.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94Z6QS6A4W;
+				INFOPLIST_FILE = ImageToText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaddubd.ImageToText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8FA102E2291E54500F262CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D871A0A198CEB32ED0BE96E8 /* Pods-ImageToText.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94Z6QS6A4W;
+				INFOPLIST_FILE = ImageToText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaddubd.ImageToText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8FA10152291E54300F262CA /* Build configuration list for PBXProject "ImageToText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8FA102A2291E54500F262CA /* Debug */,
+				C8FA102B2291E54500F262CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8FA102C2291E54500F262CA /* Build configuration list for PBXNativeTarget "ImageToText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8FA102D2291E54500F262CA /* Debug */,
+				C8FA102E2291E54500F262CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8FA10122291E54300F262CA /* Project object */;
+}
